@@ -22,7 +22,7 @@ const ListCard = () => {
                         products && products.map(
                             (Product)=>{
                                 return(
-                                        <div className="group relative" key={Product.id}>
+                                        <div class="row row-cols-1 row-cols-md-1 g-4" key={Product.id}>
                                             <Products props={Product} />
                                         </div>
                                 )
